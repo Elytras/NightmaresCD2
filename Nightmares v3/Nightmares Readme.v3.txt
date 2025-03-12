@@ -1,0 +1,326 @@
+About Nightmares:
+
+Current version 0.0.3
+Last change:
+Remake of pools
+Now pools randomly choose for each mission:
+Base grunt type
+Base mactera type
+2 out of 3 (non vanilla) spitter variants
+Fire or Ice (acid) spitter
+Trijaw type
+Oppressor types (that spawn as non veterans)
+Shellback types (that spawn as non veteran)
+
+Swarmer variants:
+veterans of mini swarmers
+removed from common pool
+Greg moved from disruptive pool to encounters 
+Exploder variants:
+Rarity set to 1
+MinSpawnCount to 5
+MaxSpawnCount to 10
+Normal spitters:
+added to common pool
+MinSpawnCount to 3
+MaxSpawnCount to 8
+Rarity set to 3
+Yellow oppressor:
+Minspawncount set to 2
+MaxSpawnCount increased from 1 to 6
+Weak to driller primaries
+When on fire, radiates heat in 20m around
+TimeDilated to 1.5x
+Red praetorians:
+MaxSpawnCount set to 4
+Rarity set to 4
+Use VeteranLarge to promote into yellow or red oppressor
+Cyan praetorians:
+MaxSpawnCount set to 4
+Rarity set to 4
+Use VeteranLarge to promote into white or cyan oppressor
+Trijaws:
+added into special pool
+Rarity set to 5
+Promote to Trijaw-Brundle or PentaJaw
+Brundles:
+Rarity set to 6
+Promote to Trijaw-Brundle
+Glasher:
+Moved from Special pool to common pool
+promotes into grooter
+Patrol bots:
+Removed patrol bot variants
+Added Caretaker Patrol bot
+Patrol bot variants are veterans of Caretaker Patrol Bot
+Oppressor variants:
+Choosen randomly per mission
+One veteran variant of red and cyan praetorian each
+Arbabomber:
+Rarity increased from 7.5 to 9
+RJ spitter:
+Rarity decreased from 12 to 11
+Menace variants:
+Shotgun Menace remove from disruptive pool
+Shotgun Menace is now VeteranLarge of Fanatic
+Bomber no shot:
+Rarity decreased 9 -> 8
+Parabomber (Gregomber):
+Rarity decreased 13 to 12
+JellyBreeder_red (Jelly bomber):
+Rarity set to 12
+Bulk variants:
+Giga bulk rarity decreased 20 to 16
+Black bulk rarity decreased 18 to 15
+White bulk rarity decreased 17 to 14
+Minibulk(invisible bulk) rarity decreased 18 to 16
+Icebulk rarity set to 15
+Plantonator Rarity set to 16
+changed spawns from sprouts to invisible bulks
+Praetorian buffer:
+Rarity set to 8
+MaxSpawnCount Set to 2
+Bomber buffer:
+Rarity set to 9
+MaxSpawnCount Set to 2
+Added to disruptive pool
+Youngling variants:
+Rarity set to 7
+MaxSpawnCount set to 4
+cyan promotes into cyan or purple shellback as VeteranLarge
+red promotes into red or white shellback as VeteranLarge
+Shellback variants:
+chosen randomly per mission one veteran type of each younglings
+Rarity set to 9
+MaxSpawnCount set to 1
+Added spitballer spawner
+Normal spitballer:
+MaxSpawnCount set to 2
+BarrageInfector:
+Rarity set to 2
+DifficultyRating set to 300
+Normal Nexus:
+Rarity set to 5
+DifficultyRating set to 50
+MaxSpawnCount set to 1
+Spitballer Bomber:
+Rarity set to 3
+DifficultyRating set to 150
+MaxSpawnCount set to 1
+Nukopter Stationary:
+Rarity set to 8
+Breeder drone:
+Rarity set to 5
+DifficultyRating set to 80
+MaxSpawnCount set to 1
+MEV breeder variants (non red):
+Rarity set to 5
+Silent leeches:
+Rarity set to 3
+TimeDilated to 0.75
+"CaveLeech" changed really hard, but im too lazy to explain it here rn :engifoil:
+Invisible leeches:
+Rarity set to 6
+TimeDilated to 1.1
+Nexus variants:
+Chosen 2 (non vanilla) types per mission
+Rarity set to 4
+Named renamed accordingly to their spawned enemies
+NukeballerSingle:
+MaxSpawnCount set to 2
+Rarity set to 3
+Nukeballer:
+MaxSpawnCount set to 1
+Rarity set to 5
+SpitballerSpawner
+MaxSpawnCount set to 0
+Rarity set to 5
+Korlok sprout variants:
+Rarity set to 4
+Grunt variants:
+Can promote into other color normal grunts
+Increased normal veteran promotion chance
+Increased LargeVeteran chance
+Decreased amount of WaveDiversity bins, and made bias towards low and high diversity bins
+
+Encounters updated to remove vanilla encounters without need of obnc or other mods (but boots are stil there :engiglare:)
+Vartok removed from stationary pool and moved to encounter with 35% spawn chance
+
+Base hazard: 6x2
+10% more enemies
+20% more damage
+first resupply free, then 40
+VeteranLarge is 0.08
+Revive with 50% hp
+Regen up to 80%
+
+Added enemies
+DEA:
+Web spitter variants:
+-   Every type is added
+-   in special pool
+Acid spitter variants:
+-   Every type added
+-   in special pool (except bouncer, he is in disruptive)
+Mactera Variants:
+Arabomber:
+-    75% fear resistence
+-   x1.5 stun weakness, in return 10s stun immunity
+-   MaxSpawnCount 2
+-   in disruptive pool
+Goo Bomber no shot:
+-   Weakpoint hp set to infinity*
+-   in disruptive pool
+Parabomber (Goo bomber spawner):
+-   Spawns Gregs™
+-   Time dilated to 1.25x
+-   in disruptive pool
+Nukopter:
+-   Added as stationary
+Bomber Exploder:
+-   Spawned exploders are smaller
+Breach mactera spawn and brundle:
+-   Both added
+-   in special pool
+Menace Variants:
+-   Both added
+-   in disruptive pool
+MEV:
+Green breeder:
+-   Spawns DEA stabber veins
+-   in stationary pool
+Purple breeder:
+-   Spawns random DEA web spitters every mission
+-   in stationary pool
+Red breeder:
+-   Spawns invisible exploders
+-   Takes 3x more damage
+-   is VERY fast
+-   in disruptive pool
+Big bulk:
+-   Takes half damage (has 50% resist against piercing)
+-   is 1.5x bigger (than base model, yes)
+-   slower
+-   Weakpoints have 1200 hp
+-   in disruptive pool
+Black bulk:
+-   Basically immune to non elemental damage
+-   Weak to elemental damage
+-   in disruptive pool
+White bulk:
+-   Opposite of black bulk
+-   in disruptive pool
+Mini bulk:
+-   Base 200 hp
+-   nearly invisible
+-   0.9x scale
+-   1.1x time dilation
+-   in disruptive pool
+Cryo bulk:
+-   0.9x scale
+-   1.1x time dilation
+-   in disruptive pool
+Plantonator:
+-   Takes 10x damage
+-   5x time dilation
+-   in disruptive pool
+White exploders:
+-   Spawned by nexus
+Other exploder variants:
+-   Added in common pool
+Cyan grunts:
+-   Heavily electric resistant
+-   Added in common pool
+Red grunts:
+-   Heavily fire and explosion resistant
+-   Added in common pool
+Yellow grunts:
+-   Heavily corrosion and poison resistant
+-   Added in common pool
+White grunts:
+-   0.5x sized
+-   Veterans are Elites
+-   1.5x time dilation
+Mactera variants:
+-   Added into common pool
+Menace variants:
+-   Added into disruptive pool (except turbo menace)
+Yellow nexus:
+-   Spawns stingtails
+-   Which are:
+-   Stun and fear immune
+-   Time dilated to 2.5x
+-   Take 4x damage
+Green nexus:
+-   Spawns poison trijaws
+Purple nexus:
+-   Spawns stalkers
+-   Which are:
+-   Stun and fear immune
+-   0.9x Time dilated
+-   Take 2x damage
+Red nexus:
+-   Spawns turbomenaces
+Patrol bot variants:
+-   Added in special pool
+Red oppressors:
+-   Takes way less damage
+-   Is 1.5x bigger
+-   Movement:
+-   0.9x speed
+-   5x acceleration/deceleration
+-   2.5x turn speed
+-   Added in special pool
+White oppressor:
+-   Takes 2x damage
+-   Time dilated 2x
+-   0.75x scale
+-   Added in special pool
+Cyan oppressor:
+-   Takes 3.5x more damage
+-   Uses same material as changed minibulk
+-   Added in special pool
+Yellow oppressor:
+-   Added in special pool
+NukeballerEX:
+-   Added as special encounter
+NukeballerU:
+-   Added as special encounter
+NukeballerSingle:
+-   Added in stationary pool
+Nukeballer:
+-   Added in stationary pool
+Swarmer variants:
+-   Added in common pool
+Praetorian variants:
+-   Added in special pool
+Shellback variants:
+-   Added in disruptive pool
+Korlok variants:
+-   Added in stationary pool
+Youngling variants:
+-   Added in disruptive pools
+
+Normal enemy changes:
+Normal swarmers:
+-   base hp reduced to 6
+Mini swarmers:
+-   0.3x size of normal swarmer
+-   base hp is 5 (just in case)
+Breeder:
+-   Removed from stationary list
+Big swarmer:
+-   Doesn't die to frozen/ignited status
+-   Doesn't despawn
+-   Heavily resistant to most damage types (except kinetic and melee)
+-   Base 800 hp
+-   7.5x size of normal swarmer
+-   Fear and stun immune
+-   Time dilation 3.5x
+-   Added as special enemy
+Stingtail:
+-   Takes 2x damage
+-   Time dilated 1.5x
+Stalker:
+-   Time dilated 1.05x
+-   Stunnable, stun duration is 0.45x
