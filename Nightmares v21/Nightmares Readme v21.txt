@@ -1,26 +1,16 @@
 About Nightmares:
 
-REQUIRES MEV 5.4, DEA b0.0.1, EEE, CD2 13b.
+REQUIRES MEV 5.4, DEA b0.0.3, EEE, CD2 14b.
 Intended for VWA/VEA
 
-Current version 0.21 (a.k.a 0.11.0 a.k.a 0.11.20) (lol) (i noticed that i never released 0.20 lmao)
-Last change:
-Yet another versioning system change
->>>Now requires additional mod<<<
-Difficulty rebased from 6x2 to 7x2, except bug health (h6) and wavetimers (old nightmares).
-Complete remake of ECM by mission types and by mission phases.
-Increased enemycap for 3 and 4 players (since previous version)
-Replaced invisible bulks and invisible bulk nexus with dystrum bulks
-Decreased bulk elite chance from 30% to 10%
-Replaced vanilla warden with EEE custom warden
-Added Stalker warden
-Added gas septic
-Grunts are now back to normal significance
-Exploder bomber has 0.02 spawnamountmodifier
-Added smollerer
-added elemental bulks, custom wardens, teleporters from EEE
-added other random stuff that i forgor so have fun LOL
-reworked most of the wavespawners
+Current release 20
+Current version 0.22
+added +0.05 nitra mutiplier per player, with it being total x1 in solo 
+banned telegrabber nexus from salvage
+added menaces and minimacteras back, which were removed from the difficulty since rebase, because i forgot to add them
+added new EEE 1.5 enemies
+balance attempts for 400 mork missions
+replaced normal and acid spitters with pitters and spitter dashers
 
 Base Hazard Settings:
     Base Hazard: 7x2, With hazard 6 health.
@@ -43,7 +33,7 @@ Enemies:
     Macteras(MEV): Projectile replaced with random elemental projectile, that randomly ignites/freezes/poisons/electrifies you.
     Acid Spitter(EEE): Have lower hp, randomly shoot freeze/poison
     Web Spitter(DEA): Projectiles replaced with random debuff projectile, that randomly webs/stuns/unshields/mfds you.
-    Menaces(MEV/DEA/EEE): Projectile replaced with random elemental projectile, that randomly ignites/freezes/poisons/electrifies you. Can promote into rocket/tcf/turbo/turbonuke/fanatic variants
+    Menaces(MEV/DEA/EEE): Projectile replaced with random elemental projectile, that randomly ignites/freezes/poisons/electrifies you. Can promote into rocket/tcf/turbo/turbonuke/fanatic/teleporter variants
     Goo Bomber(MEV/DEA/EEE): Has NoShot/Acid/Spawner variants
     Fire Bomber(DEA/EEE): Added, Has Arbalest mines and exploder spawning variants
     Breeder(EEE): Added different variants which may spawn Grabbers/Exploders/Elite spitters/Stabbervines/Shredders/Sharks/Sentinels or shooting drones/rockets/nukes
