@@ -3,7 +3,7 @@ About Nightmares:
 REQUIRES MEV 5.4, DEA b0.0.3, EEE, CD2 14b.
 Intended for VWA/VEA
 
-Current release 20
+Current release 21
 Current version 0.22
 added +0.05 nitra mutiplier per player, with it being total x1 in solo 
 banned telegrabber nexus from salvage
