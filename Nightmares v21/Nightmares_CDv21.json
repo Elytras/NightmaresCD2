@@ -663,6 +663,7 @@
         "ED_BarrageInfector_Fire",
         "ED_BarrageInfector_Exploder",
         "ED_BeerrageInfector",
+        "ED_CaveLeech_Friendly",
         "ED_CaveLeech_Camo",
         "ED_CaveLeech_cloak",
         "ED_Nexus_Exploder",
