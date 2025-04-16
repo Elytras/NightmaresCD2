@@ -689,7 +689,7 @@
         {
           "Mutate": "ByDNA",
           "Default": [
-            "ED_SpiderSpawner_red",
+            "ED_Nexus_Turbo",
             {
               "Mutate": "RandomChoice",
               "Choices": [
@@ -723,7 +723,7 @@
             }
           ],
           "Salvage": [
-            "ED_SpiderSpawner_red",
+            "ED_Nexus_Turbo",
             {
               "Mutate": "RandomChoice",
               "Choices": [
@@ -1425,50 +1425,18 @@
         "BurnTemperature": 65
       }
     },
-    "ED_Spider_Spawn_dummy_red": {
-      "Base": "ED_Spider_RapidShooter_Turbo",
-      "DifficultyRating": 1,
-      "MaxSpawnCount": [
-        3,
-        5,
-        7,
-        10
-      ],
-      "CustomVeterans": {
-        "ED_TurboNuke": 1,
-        "ED_Spider_RapidShooter_Turbo": 999
-      },
-      "MinSpawnCount": 1
-    },
-    "ED_SpiderSpawner_red": {
-      "MaxSpawnCount": 9999,
-      "MinSpawnCount": 1,
+    "ED_Nexus_Turbo": {
       "DifficultyRating": {
         "Mutate": "ByDNA",
         "Default": 120,
         "PE": 125,
         "Refinery": 125
       },
-      "HealthMultiplier": 0.75,
-      "DisplayName": "Turbo Brood Nexus",
       "Rarity": {
         "Mutate": "ByDNA",
         "Default": 4,
         "Escort": 5.5
-      },
-      "Materials": [
-        "M_SkinColor_Rager",
-        "M_SpaceRig_DarkGlass01_WS",
-        "M_Uplink_Light_Red_Blink",
-        "M_SpaceRig_DarkGlass01_WS",
-        "M_Uplink_Light_Red_Blink",
-        "M_SpaceRig_DarkGlass01_WS",
-        "M_Uplink_Light_Red_Blink",
-        "M_SpaceRig_DarkGlass01_WS",
-        "M_Uplink_Light_Red_Blink",
-        "M_SpaceRig_DarkGlass01_WS",
-        "M_Uplink_Light_Red_Blink"
-      ]
+      }
     },
     "ED_ShootingPlant": {
       "DifficultyRating": 70
@@ -1479,9 +1447,9 @@
     "ED_ShootingPlant_NukeSingle": {
       "MaxSpawnCount": 1,
       "Materials": [
-        "",
-        "M_SpaceRig_LightMachinery_Red02",
-        "M_SpaceRig_LightMachinery_Red02"
+        "M_NukeballBody",
+        "M_Nukeballwp25",
+        "M_Nukeballwp25"
       ],
       "Rarity": 3,
       "DifficultyRating": 175,
